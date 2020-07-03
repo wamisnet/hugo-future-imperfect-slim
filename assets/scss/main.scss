@@ -225,9 +225,8 @@ h5,
 h6 {
   color: #3c3b3b;
   font-family: "Raleway", Helvetica, sans-serif;
-  letter-spacing: 0.25em;
+  letter-spacing: 0.15em;
   line-height: 1.65;
-  text-transform: uppercase;
   a {
     border-bottom: 0;
   }
@@ -247,7 +246,7 @@ code {
   border: solid 1px rgba(160, 160, 160, 0.3);
   font-family: "Courier New", monospace;
   font-size: 0.9em;
-  margin: 0 0.25em;
+  margin: 0 0.15em;
   padding: 0.25em 0.65em;
   overflow-x: auto;
   &::-webkit-scrollbar {
@@ -305,7 +304,6 @@ input[type="button"],
   -ms-transition: background-color 0.2s ease, border 0.2s ease, color 0.2s ease;
   transition: background-color 0.2s ease, border 0.2s ease, color 0.2s ease;
   text-align: center;
-  text-transform: uppercase;
   width: fit-content;
   &:hover {
     border: solid 1px $accent-color;
@@ -1026,7 +1024,6 @@ Theme Grid
         font-size: 0.7em;
         font-weight: 800;
         letter-spacing: 0.25em;
-        text-transform: uppercase;
       }
       p,
       .author,
@@ -1034,7 +1031,6 @@ Theme Grid
         font-family: "Raleway", Helvetica, sans-serif;
         font-size: 0.6em;
         letter-spacing: 0.25em;
-        text-transform: uppercase;
       }
     }
   }
@@ -1141,7 +1137,6 @@ Theme Grid
             -ms-transition: visibility 0s, opacity 0.5s linear, line-height 0.5s linear, margin 0.5s linear, width 0.5s linear;
             -o-transition: visibility 0s, opacity 0.5s linear, line-height 0.5s linear, margin 0.5s linear, width 0.5s linear;
             transition: visibility 0s, opacity 0.5s linear, line-height 0.5s linear, margin 0.5s linear, width 0.5s linear;
-            text-transform: uppercase;
             &:nth-child(-n + 3) {
               visibility: visible;
               opacity: 1;
@@ -1233,7 +1228,7 @@ Theme Grid
     letter-spacing: 0.25em;
     margin: 0;
     padding: 0 1.5em;
-    text-transform: uppercase;
+
   }
 }
 
@@ -1563,7 +1558,6 @@ Theme Grid
       letter-spacing: 0.25em;
       line-height: 2.5;
       margin-bottom: 0;
-      text-transform: uppercase;
     }
   }
   &.hidden-single-column {
@@ -1638,7 +1632,6 @@ Theme Grid
       font-weight: 400;
       letter-spacing: 0.25em;
       margin: -0.625em 0 1.7em 0;
-      text-transform: uppercase;
     }
     .author,
     .format {
@@ -1698,7 +1691,6 @@ Theme Grid
     font-weight: 400;
     letter-spacing: 0.25em;
     text-align: center;
-    text-transform: uppercase;
   }
 }
 
